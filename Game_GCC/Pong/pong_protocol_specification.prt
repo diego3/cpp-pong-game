@@ -1,0 +1,21 @@
+
+Pong Protocol Specification
+------------------------------------------------------------------------
+messages:
+	code        description
+	----        --------------------------------------------------------
+	join 		Very first attempt that UDP client make to connect
+	beg:		Start game requested
+	end:		End game, someone win!
+	pmu: 		paddle move up
+	pmd: 		paddle move down
+	pmstop:		paddle move stop
+	bm x y: 	ball move by x position and y position
+	p1p: 		player 1 add +1 point
+	p2p: 		player 2 add +1 point
+	match1:		+1 match point to player 1
+	match2:		+1 match point to player 2
+	p1a:		player 1 want to play again
+	p2a:		player 2 want to play again
+	fin:		Loser player gives up
+	
